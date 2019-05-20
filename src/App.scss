@@ -1,0 +1,10 @@
+.app {
+  z-index: 1;
+  //background: url(./jexperts-bg.jpg) no-repeat scroll center center;
+  background-size: cover;
+
+  &__login-btn {
+    margin-left: auto;
+  }
+
+}

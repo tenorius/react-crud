@@ -50,7 +50,8 @@ module.exports = ({ mode } = { mode: 'production' }) => {
       })
     ],
     devServer: {
-      open: true
+      open: true,
+      historyApiFallback: true
     }
   };
 };

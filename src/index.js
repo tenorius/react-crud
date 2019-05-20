@@ -1,6 +1,5 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import MainRoutes from './routes';
 
-const App = () => <div>Ola React,Webpack 4 & Babel 7!</div>;
-
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<MainRoutes />, document.getElementById('root'));
